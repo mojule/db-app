@@ -1,0 +1,29 @@
+{
+  "name": "@mojule/db-app",
+  "version": "0.1.0",
+  "description": "DB wrapper for server side apps",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojule/db-app.git"
+  },
+  "keywords": [],
+  "author": "Nik Coughlin <nrkn.com@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mojule/db-app/issues"
+  },
+  "homepage": "https://github.com/mojule/db-app#readme",
+  "dependencies": {
+    "lodash.kebabcase": "^4.1.1",
+    "mingo": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/lodash.kebabcase": "^4.1.6",
+    "@types/node": "^14.14.37"
+  }
+}
